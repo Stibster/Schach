@@ -32,7 +32,6 @@ public class SchachV10 extends javax.swing.JFrame
                         }
                     }
                 });	
-        
         fenster.getContentPane().add(sb); 
         //Container contentPane = fenster.getContentPane();
         //contentPane.add(myCanvas);
