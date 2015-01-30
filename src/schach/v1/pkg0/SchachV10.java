@@ -33,21 +33,6 @@ public class SchachV10 extends javax.swing.JFrame
                     }
                 });	
         
-        fenster.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-        fenster.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent evt)
-            {
-                int auswahl = JOptionPane.showConfirmDialog(fenster, "Wirklich beenden?");
-                if(auswahl == JOptionPane.YES_OPTION)
-                {
-                    fenster.dispose();
-                }
-                //Brauch das kleine Fenster denn wirklich 3 Button? Denn Nein und Abbrechen führen ja zum selben Ergebnis
-            }
-        });	
-        
-        
         fenster.getContentPane().add(sb); 
         //Container contentPane = fenster.getContentPane();
         //contentPane.add(myCanvas);
